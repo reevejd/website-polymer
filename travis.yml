@@ -18,3 +18,5 @@ before_script:
 script:
   - xvfb-run npm test
   - xvfb-run npm run test:integration
+install:
+  - npm install -g firebase-tools
